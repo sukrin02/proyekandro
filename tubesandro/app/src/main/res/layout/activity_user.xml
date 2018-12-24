@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="mobile.tubes.polinema.com.tubesandro.UserActivity">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/nama_app" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panzha Catering"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/Magenta"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/nama_app"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nama_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnApl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:background="@color/Blue"
+        android:text="Paket Makanan"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:background="@color/Blue"
+        android:text="Video"
+        android:textColor="@color/White"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Logout" />
+</RelativeLayout>
